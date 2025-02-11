@@ -1,0 +1,60 @@
+CSS cвойство border-style
+CSS свойство border-style определяет, какую границу отображать.
+
+Допустимы следующие значения:
+
+dotted - определяет границу штрихом
+dashed - определяет границу пунктиром
+solid - определяет границу сплошной
+double - определяет границу двойной
+groove - определяет 3D границу желобом. Эффект зависит от значение border-color
+ridge - определяет 3D границу коньком. Эффект зависит от значение border-color
+inset - определяет 3D границу вставкой. Эффект зависит от значение border-color
+outset - определяет 3D границу начальной. Эффект зависит от значение border-color
+none - определяет без границ
+hidden - определяет скрытые границы
+CSS свойство border-style может иметь от одного до четырех значений (для верхней границы, правой границы, нижней границы и левой границы).
+
+
+CSS Граница левая
+p {
+  border-left: 6px solid red;
+  padding:5px 5px;
+}
+
+
+
+
+
+  <style>
+  p.normal {
+    border: 2px solid red;
+  }
+
+  p.round1 {
+    border: 2px solid red;
+    border-radius: 5px;
+  }
+
+  p.round2 {
+    border: 2px solid red;
+    border-radius: 8px;
+  }
+
+  p.round3 {
+    border: 2px solid red;
+    border-radius: 12px;
+  }
+  </style>
+ </head>
+ <body>
+
+  <h1>CSS Границы закругленные</h1>
+
+  <h3>Свойство border-radius</h3>
+  <p>Это свойство используется для добавления закругленных границ к элементу:</p>
+
+  <p class="normal">Нормальные границы</p>
+  <p class="round1">Закругленные граница</p>
+  <p class="round2">Круглые граница</p>
+  <p class="round3">Самая круглые граница</p>
